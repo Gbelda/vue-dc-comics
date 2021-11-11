@@ -60,13 +60,14 @@ export default {};
 
 .ext_links {
   background-image: url(../assets/img/footer-bg.jpg);
-  height: 350px;
+  height: 400px;
 
   .index_container {
-    padding: 2rem 0px;
+    padding: 4rem 0px;
+
     .index_section {
       padding-right: 2rem;
-      width: 150px;
+      width: 170px;
     }
   }
 
@@ -79,12 +80,13 @@ export default {};
     background-image: url(../assets/img/dc-logo-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 525px;
-    height: 350px;
+    background-size: 590px;
+    height: 400px;
   }
 
   h4 {
     color: $text_primary_color;
+    font-size: 1.3rem;
   }
 
   h4,
@@ -94,7 +96,7 @@ export default {};
 
   li {
     a {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
       color: rgb(136, 136, 136);
     }
   }
