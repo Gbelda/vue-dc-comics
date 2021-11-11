@@ -2,11 +2,14 @@
   <div id="app">
     <SiteHeader />
     <!-- /#site_header -->
+
     <SiteMain />
     <!-- /#site_main -->
+
     <footer id="site_footer">
-      <section class="ext_links"></section>
+      <FooterIndex />
       <!-- /.ext_links -->
+
       <section class="socials"></section>
       <!-- /.socials -->
     </footer>
@@ -17,11 +20,13 @@
 <script>
 import SiteHeader from "./components/SiteHeader.vue";
 import SiteMain from "./components/SiteMain.vue";
+import FooterIndex from "./components/FooterIndex.vue";
 export default {
   name: "App",
   components: {
     SiteHeader,
     SiteMain,
+    FooterIndex,
   },
 };
 </script>
