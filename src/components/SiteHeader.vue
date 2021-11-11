@@ -80,11 +80,9 @@ export default {};
   }
   .nav_links {
     ul {
-      list-style: none;
       li {
         padding-left: 1.5rem;
         a {
-          text-decoration: none;
           color: $nav_text_primary_color;
 
           h5 {
