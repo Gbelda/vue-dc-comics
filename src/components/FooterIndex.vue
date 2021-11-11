@@ -95,7 +95,7 @@ export default {};
   li {
     a {
       font-size: 0.8rem;
-      color: $nav_text_primary_color;
+      color: rgb(136, 136, 136);
     }
   }
 }
