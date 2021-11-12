@@ -46,7 +46,6 @@
           </ul>
         </div>
       </div>
-      <!-- <div class="footer_dc_logo"></div> -->
     </div>
   </section>
 </template>
