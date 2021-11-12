@@ -205,6 +205,9 @@ export default {
         text-align: center;
         padding: 0.5rem 0px;
       }
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 

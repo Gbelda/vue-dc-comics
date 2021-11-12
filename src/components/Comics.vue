@@ -23,6 +23,10 @@ export default {
     width: 200px;
     height: 190px;
     overflow: hidden;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
   .title {
     font-size: 1rem;

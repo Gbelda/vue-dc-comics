@@ -16,7 +16,7 @@
     <!-- /#site_footer -->
   </div>
 </template>
-
+ 
 <script>
 import SiteHeader from "./components/SiteHeader.vue";
 import SiteMain from "./components/SiteMain.vue";
@@ -35,5 +35,6 @@ export default {
 </script>
 
 <style lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
 @import "./assets/scss/common.scss";
 </style>
