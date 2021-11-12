@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <img :src="image" alt="" />
+  <div class="comic">
+    <div class="comic_image">
+      <img :src="image" alt="" />
+    </div>
+    <h3 class="title">{{ series }}</h3>
   </div>
-  <h3>{{ series }}</h3>
 </template>
 
 <script>
@@ -14,5 +16,18 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+.comic {
+  margin: 1rem 0%;
+  .comic_image {
+    width: 200px;
+    height: 190px;
+    overflow: hidden;
+  }
+  .title {
+    font-size: 1rem;
+    width: 200px;
+    margin: 1rem 0%;
+  }
+}
 </style>

@@ -29,3 +29,12 @@ a{
 .col-2{
     width: calc(100% / 6);
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space_evenly{
+    justify-content: space-evenly;
+}

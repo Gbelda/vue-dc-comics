@@ -5,7 +5,7 @@
       <div class="section_title">
         <h2>CURRENT SERIES</h2>
       </div>
-      <div class="row comic">
+      <div class="row comic space_evenly">
         <Comics
           v-for="comic in comics"
           :key="comic.series"
