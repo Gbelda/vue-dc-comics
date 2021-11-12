@@ -46,7 +46,7 @@
           </ul>
         </div>
       </div>
-      <div class="footer_dc_logo"></div>
+      <!-- <div class="footer_dc_logo"></div> -->
     </div>
   </section>
 </template>
@@ -64,10 +64,15 @@ export default {};
 
   .index_container {
     padding: 4rem 0px;
+    width: 100%;
+    background-image: url(../assets/img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 590px;
+    height: 400px;
 
     .index_section {
       padding-right: 2rem;
-      width: 170px;
     }
   }
 
@@ -77,10 +82,6 @@ export default {};
 
   .footer_dc_logo {
     width: 100%;
-    background-image: url(../assets/img/dc-logo-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 590px;
     height: 400px;
   }
 
