@@ -3,7 +3,7 @@
     <div class="hero_img"></div>
     <section class="content_section container">
       <div class="section_title">
-        <h2>CURRENT SERIES</h2>
+        <h3>CURRENT SERIES</h3>
       </div>
       <div class="row comic space_evenly">
         <Comics
@@ -13,6 +13,9 @@
           :series="comic.series"
           class="col-3"
         />
+      </div>
+      <div class="load">
+        <h4>LOAD MORE</h4>
       </div>
     </section>
     <!-- /.content_section -->
@@ -185,12 +188,22 @@ export default {
     padding: 3rem 0px;
 
     .section_title {
-      width: 245px;
+      width: 220px;
       background-color: $highlight_primary_color;
-      margin-top: -4.5rem;
+      margin-top: -4rem;
       margin-bottom: 1rem;
-      h2 {
+      h3 {
         padding: 0.5rem 1rem;
+        text-align: center;
+      }
+    }
+    .load {
+      h4 {
+        margin: auto;
+        width: 200px;
+        background-color: $highlight_primary_color;
+        text-align: center;
+        padding: 0.5rem 0px;
       }
     }
   }

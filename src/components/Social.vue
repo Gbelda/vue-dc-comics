@@ -33,7 +33,7 @@ export default {};
 <style lang="scss">
 @import "../assets/scss/variables.scss";
 .socials {
-  height: 149px;
+  height: 120px;
   background-color: $social_bg_color;
 
   .container {
